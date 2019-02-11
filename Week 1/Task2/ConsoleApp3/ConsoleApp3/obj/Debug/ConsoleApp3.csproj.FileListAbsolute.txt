@@ -1,0 +1,6 @@
+D:\kbtu\principes of programing\c#\08.02\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+D:\kbtu\principes of programing\c#\08.02\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+D:\kbtu\principes of programing\c#\08.02\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+D:\kbtu\principes of programing\c#\08.02\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+D:\kbtu\principes of programing\c#\08.02\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+D:\kbtu\principes of programing\c#\08.02\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
