@@ -1,7 +1,0 @@
-D:\kbtu\principes of programing\c#\08.02\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
-D:\kbtu\principes of programing\c#\08.02\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe
-D:\kbtu\principes of programing\c#\08.02\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
-D:\kbtu\principes of programing\c#\08.02\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
-D:\kbtu\principes of programing\c#\08.02\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
-D:\kbtu\principes of programing\c#\08.02\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
-D:\kbtu\principes of programing\c#\08.02\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
