@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace ConsoleApp1
@@ -11,6 +7,7 @@ namespace ConsoleApp1
     {
         static void print(DirectoryInfo d, int cursor) // создаем функцию , даем ему файлы и курсор
         {
+            Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
             FileSystemInfo[] fsis = d.GetFileSystemInfos(); // создаем массив и присваиваем ему файлы и папки
             for(int i = 0; i< fsis.Length; i++) // цикл массива
@@ -19,13 +16,13 @@ namespace ConsoleApp1
                 {
                     Console.ForegroundColor = ConsoleColor.White; 
                 }
-                if (fsis[i].GetType()== typeof(FileInfo)) // если элемент типа файл, то цвет шрифта - желтый
+                if (fsis[i].GetType()== typeof(FileInfo)) // если элемент типа файл, то цвет шрифта - magenta
                 {
-                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 }
-                if (i == cursor) // цвет шрифта где стоит курсор - серый
+                if (i == cursor) // цвет шрифта где стоит курсор - darkcyan
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
                 }
                 else
                 {
@@ -78,7 +75,7 @@ namespace ConsoleApp1
                         Console.ReadKey();
                     }
                 }
-                if (keyInfo.Key == ConsoleKey.Escape) // при нажатии escape
+                if (keyInfo.Key == ConsoleKey.Backspace) // при нажатии backspace
                 {
                     if (d.Parent != null) // если у него есть родитель
                     {
@@ -91,22 +88,47 @@ namespace ConsoleApp1
                         break;
                     }
                 }
+                if (keyInfo.Key == ConsoleKey.Escape) // при нажатии escape
+                {
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.Clear();
+                    Console.WriteLine("Are you sure? "); //если юзер хочет выйти с проги
+                    Console.WriteLine("Y or N");
+                    string o = Console.ReadLine();
+                    if(o == "Y")
+                    {
+                        Environment.Exit(0);// выйти с проги
+                    }
+                }
                 if (keyInfo.Key == ConsoleKey.D) // при нажатии "D"
                 {
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.Clear();
+                    Console.WriteLine("Are you sure? ");
+                    Console.WriteLine("Y or N");
+                    string y = Console.ReadLine();
                     if (fsis[cursor].GetType() == typeof(DirectoryInfo)) // если элемент на котором стоит курсор- папка
                     {
-                        Directory.Delete(fsis[cursor].FullName); // удалить эту папку
+                        if (y == "Y")
+                        {
+                            Directory.Delete(fsis[cursor].FullName, true); // удалить эту папку
+                        }
                     }
                     if (fsis[cursor].GetType() == typeof(FileInfo)) // если элемент на котором стоит курсор- файл
                     {
-                        File.Delete(fsis[cursor].FullName); // удалить этот файл
-                    }
+                        if (y == "Y")
+                        {
+                            File.Delete(fsis[cursor].FullName); // удалить этот файл
+                        }
+                    }    
                 }
                 if (keyInfo.Key == ConsoleKey.R) // при нажатии "R"
                 {
+                    
                     if (fsis[cursor].GetType() == typeof(DirectoryInfo)) // если элемент на котором стоит курсор- папка
                     {
                         Console.Clear();
+                        Console.WriteLine("Please type new name of folder");
                         string s = Console.ReadLine(); // написать новое название
                         string fileName = fsis[cursor].Name; // считываем имя папки
                         string dirPath = fsis[cursor].FullName; // считываем весь путь к данной папке
@@ -122,6 +144,7 @@ namespace ConsoleApp1
                     if (fsis[cursor].GetType() == typeof(FileInfo)) // если элемент на котором стоит курсор- файл
                     {
                         Console.Clear(); // очистить консоль
+                        Console.WriteLine("Please type new name of file");
                         string s = Console.ReadLine(); // написать новое название
                         string fileName = fsis[cursor].Name;// считываем имя файла
                         string dirPath = fsis[cursor].FullName;// считываем весь путь к данному файлу
