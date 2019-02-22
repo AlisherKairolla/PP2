@@ -16,7 +16,7 @@ namespace ConsoleApp1
 
             public student(string name, int year) // конструктор с двумя параметрами
             {
-                n = name; 
+                n = name;
                 y = year;
             }
 
@@ -31,7 +31,7 @@ namespace ConsoleApp1
                 Console.WriteLine(id); // вывод айдишки
                 Console.WriteLine(y); // вывод года обучения
             }
-        
+
         }
         static void Main(string[] args)
         {

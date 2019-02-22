@@ -5,3 +5,10 @@ D:\kbtu\principes of programing\c#\08.02\ConsoleApp5\ConsoleApp5\obj\Debug\Conso
 D:\kbtu\principes of programing\c#\08.02\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
 D:\kbtu\principes of programing\c#\08.02\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.exe
 D:\kbtu\principes of programing\c#\08.02\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
+C:\Users\Admin\Desktop\PP2\Week 1\Task4\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+C:\Users\Admin\Desktop\PP2\Week 1\Task4\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+C:\Users\Admin\Desktop\PP2\Week 1\Task4\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+C:\Users\Admin\Desktop\PP2\Week 1\Task4\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\PP2\Week 1\Task4\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP2\Week 1\Task4\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+C:\Users\Admin\Desktop\PP2\Week 1\Task4\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.pdb

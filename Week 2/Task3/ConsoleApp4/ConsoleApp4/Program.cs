@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace ConsoleApp4
@@ -35,7 +31,7 @@ namespace ConsoleApp4
         }
         static void Main(string[] args)
         {
-            print(@"D:\kbtu\principes of programing\c#\08.02\ConsoleApp1", 0);
+            print(@"C:\Users\Admin\Desktop\PP2\Week 2", 2);
         }
     }
 }

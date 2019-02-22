@@ -11,12 +11,12 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            StreamWriter New = new StreamWriter(@"D:\kbtu\principes of programing\c#\txt_files\4.txt");
+            StreamWriter New = new StreamWriter(@"D:\kbtu\principes of programing\c#\txt_files\5.txt");
             New.Write(3333);
             New.Close();
 
-            File.Copy(@"D:\kbtu\principes of programing\c#\txt_files\4.txt", @"D:\kbtu\principes of programing\c#\4.txt");
-            File.Delete(@"D:\kbtu\principes of programing\c#\txt_files\4.txt");
+            File.Copy(@"D:\kbtu\principes of programing\c#\txt_files\5.txt", @"D:\kbtu\principes of programing\c#\4.txt");
+            File.Delete(@"D:\kbtu\principes of programing\c#\txt_files\5.txt");
         }
     }
 }

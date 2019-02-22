@@ -33,7 +33,7 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
-            string path = @"D:\kbtu\principes of programing\c#"; //даем путь к папке
+            string path = @"D:\kbtu\test"; //даем путь к папке
             DirectoryInfo d = new DirectoryInfo(path); // открываем директорию и даем ему путь к папке
             int cursor = 0; //создаем курсор
             print(d, cursor); // вызываем функцию для директории и курсора
@@ -111,7 +111,7 @@ namespace ConsoleApp1
                     {
                         if (y == "Y")
                         {
-                            Directory.Delete(fsis[cursor].FullName, true); // удалить эту папку
+                            Directory.Delete(fsis[cursor].FullName); // удалить эту папку
                         }
                     }
                     if (fsis[cursor].GetType() == typeof(FileInfo)) // если элемент на котором стоит курсор- файл

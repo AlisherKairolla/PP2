@@ -5,3 +5,10 @@ D:\kbtu\principes of programing\c#\Новая папка\ConsoleApp3\ConsoleApp3
 D:\kbtu\principes of programing\c#\Новая папка\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
 D:\kbtu\principes of programing\c#\Новая папка\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
 D:\kbtu\principes of programing\c#\Новая папка\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\Admin\Desktop\PP2\Week 1\Task3\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Admin\Desktop\PP2\Week 1\Task3\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Admin\Desktop\PP2\Week 1\Task3\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Admin\Desktop\PP2\Week 1\Task3\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\PP2\Week 1\Task3\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PP2\Week 1\Task3\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Admin\Desktop\PP2\Week 1\Task3\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
